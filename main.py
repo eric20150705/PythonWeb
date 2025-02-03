@@ -1,1 +1,2 @@
-r5r8y6r656f5f46u484gi6o6og6f78hg867if6g7ig76g7tg78t6g86h8h7i787j7h88yiy6iuyhiuui67thju8mh9y689jmhnytgy675
+print("hello")
+print("hello")
