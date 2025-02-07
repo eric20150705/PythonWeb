@@ -1,5 +1,7 @@
 import streamlit as st
+import menu
 
+menu.menu()
 # 設定應用程式的標題
 st.title("點餐機")
 

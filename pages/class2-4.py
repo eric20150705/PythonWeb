@@ -1,6 +1,8 @@
 import streamlit as st
 import random as r
+import menu
 
+menu.menu()
 st.title("猜數字遊戲")
 if "ans" not in st.session_state:
     st.session_state.ans = r.randint(1, 100)

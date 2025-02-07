@@ -1,5 +1,7 @@
 import streamlit as st
+import menu
 
+menu.menu()
 st.title("這是一個標題")
 st.write(
     "這是一個用`st.write` 顯示的字串，可以處理多種格式，例如：數字、文字、Markdown、數據框等"

@@ -1,6 +1,8 @@
 import streamlit as st
 import random as r
+import menu
 
+menu.menu()
 st.title("數字金字塔")
 guess = st.number_input("請輸入一個整數：", step=1, min_value=1, max_value=9)
 
