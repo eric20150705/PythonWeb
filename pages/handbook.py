@@ -4,10 +4,9 @@ import menu
 
 menu.menu()
 
-hd_book_files = os.listdir("markdown")
-hd_book_files.sort()
 # 打開markdown資料夾，取得所有檔案名稱
 hd_book_files = os.listdir("markdown")
+hd_book_files.sort()
 
 # 透過迴圈，將markdown資料夾中的檔案名稱取出，並透過expander元件展開
 for file_name in hd_book_files:
