@@ -4,6 +4,8 @@ import menu
 
 menu.menu()
 
+hd_book_files = os.listdir("markdown")
+hd_book_files.sort()
 # 打開markdown資料夾，取得所有檔案名稱
 hd_book_files = os.listdir("markdown")
 

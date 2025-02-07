@@ -13,4 +13,4 @@ def menu():
     st.sidebar.page_link("pages/class4-1.py", label="欄位元件", icon="📊")
     st.sidebar.page_link("pages/class4-2.py", label="點餐機", icon="🍽️")
     st.sidebar.page_link("pages/class5-2.py", label="跟AI聊天", icon="🤖")
-    st.sidebar.page_link("pages/class5-3.py", label="AI猜謎遊戲", icon="🤖")
+    st.sidebar.page_link("pages/class5-3.py", label="猜謎遊戲", icon="🤖")
