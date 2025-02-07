@@ -7,7 +7,7 @@ dotenv.load_dotenv()
 
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
-st.title("猜謎遊戲")
+st.title("聊天機器人")
 
 if "history" not in st.session_state:
     st.session_state.history = []
