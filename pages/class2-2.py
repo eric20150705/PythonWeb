@@ -1,5 +1,6 @@
 import streamlit as st
 import menu
+import random as r
 
 menu.menu()
 st.title("這是一個標題")
