@@ -12,7 +12,7 @@ for i in range(1, 5):
     print(i)
 
 # range 可以設定起質、結束質與間隔直，但不會包含結束值
-# range(1, 10, 2) 從 1 開始，到 10 為止，每隔 2 個
+# range(1, 10, 2) 從 1 開始，到 9 為止，每次增加 2
 for i in range(1, 10, 2):
     print(i)
 
